@@ -1,0 +1,16 @@
+build/
+cmake-build-*/
+*.o
+*.a
+*.so
+*.exe
+*.csv
+*.png
+*.jpg
+*.jpeg
+*.bmp
+!images/.gitkeep
+!results/.gitkeep
+
+# Build directories
+build-clang/
