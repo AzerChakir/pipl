@@ -205,7 +205,7 @@ Experiments will investigate:
 
 ```bash
 git clone https://github.com/YOUR_USERNAME/pipl.git
-cd PIPL
+cd pipl
 ```
 
 ### Configure
