@@ -158,29 +158,28 @@ The time required to execute an image processing operation.
 
 **Speedup**
 
-\[
-S(p) = \frac{T_{\text{sequential}}}{T_p}
-\]
+
+>S(p) = T_sequential / T_p
+
 
 **Parallel Efficiency**
 
-\[
-E(p) = \frac{S(p)}{p}
-\]
+
+>E(p) = S(p) / p
+
 
 **Amdahl's Law**
 
-\[
-S(p) = \frac{1}{(1-f)+\frac{f}{p}}
-\]
+
+>S(p) = 1 / ((1 - f) + f/p)
+
 
 Where:
 
-- \(T_{\text{sequential}}\): sequential execution time.
-- \(T_p\): execution time using \(p\) processing units.
-- \(f\): parallelizable fraction of the workload.
-- \(p\): number of processing units.
-
+- T_sequential: sequential execution time.
+- T_p: execution time using p processing units.
+- f: parallelizable fraction of the workload.
+- p: number of processing units.
 GPU experiments will distinguish between host-to-device transfer time, kernel execution time, device-to-host transfer time, and total execution time.
 
 Experiments will investigate:
@@ -205,7 +204,7 @@ Experiments will investigate:
 ### Clone the repository
 
 ```bash
-git clone https://github.com/YOUR_USERNAME/PIPL.git
+git clone https://github.com/YOUR_USERNAME/pipl.git
 cd PIPL
 ```
 
